@@ -1,0 +1,126 @@
+header
+{
+  background-color: black;
+  height:100px;
+}
+.container
+{
+    text-align:center;
+    margin-left:50px;
+    margin-right:50px;
+   
+}
+header h1
+{
+ padding-top:20px;
+ font-size:70px;
+ color:white;
+ font-family: 'Times New Roman', Times, serif;
+ letter-spacing:2px;
+ z-index:10;
+
+}
+.header-list
+{
+    float:right;
+    list-style:none;
+    margin-right:30px;
+    padding-top:20px;
+}
+.list-item
+{
+    margin-bottom:5px;
+    block-size:inline;
+    background-color: white;
+    padding:5px;
+}
+.list-item:active
+{
+    position:relative;
+    top:3px;
+}
+.project
+{
+    background-image:url(img.jpg);
+    background-size:cover;
+    height:500px;
+    z-index:0;
+}
+.project p
+{
+    margin-top:0.5px;
+padding-top:100px;
+display:flex;
+
+}
+.project h1
+{
+ letter-spacing:2px;
+ font-weight:bolder;
+ opacity:5px;
+ font-style: oblique;
+ font-size:40px;
+ line-height:60px;
+}
+.skill-list
+{
+    width:50%;
+    float:left;
+    flex:auto;
+}
+.skills h1
+{
+    margin-left:400px;
+    margin-right:400px;
+    width:700px;
+    font-size:40px;
+    letter-spacing:3px;
+    padding-bottom:7px;
+    height:50px;
+    background-color: teal;
+}
+.skill-list img
+{
+    height:300px;
+    padding-right:5px;
+    border-style:solid;
+    box-shadow:5px 5px black;
+    border-radius:25px;
+    border-width:3px;
+}
+.skill-list p
+{
+block-size:inline;
+width:150px;
+height:40px;
+margin-left:250px;
+text-align:center;
+padding-top:7px;
+background-color:black;
+color:white;
+}
+footer
+{
+    margin-right:400px;
+    margin-left:400px;
+    text-align:center;
+}
+footer h1
+{
+    height:50px;
+    background-color:teal;
+    margin-top:850px;
+}
+.footer-list
+{
+    list-style:none;
+    font-size:30px;
+    font-weight: lighter;
+    border-style: solid;
+    border:3px 3px black;
+}
+.fa
+{
+    padding-right:2px;
+}
+
